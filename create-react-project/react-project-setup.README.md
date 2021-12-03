@@ -1,6 +1,26 @@
 Setting Up A React App Project
 ------
 
+
+
+### What Steps The Script Takes:
+1. Create the React project
+2. Tidy up src folder (assets, components, tests, utisl, css)
+3. Create server folder and populates the following files with template code
+    * server.js
+    * api.js with basic route with GET and POST requests
+    * .env file
+4. Install dependencies
+5. Wait for dependencies to have been installed
+6. Correct file paths in App.js and index.js
+7. Set up package.json with concurrently
+8. Add basic get and post request to App.js
+
+<img src="./assets/react-project-tree.png" alt="latest-file-tree" width="300"/>
+
+
+
+
 ## Installation and Use
 To use the script, put the script in the location you'd like to create the React App and run the following commands:
 
@@ -15,19 +35,6 @@ All you have to do is run this in your standard terminal. It should work fine fo
 
 #### For Windows:
 Download and open `git bash` to run this script.
-
-### What Steps The Script Takes:
-1. Create the React project
-2. Tidy up src folder (assets, components, tests, utisl, css)
-3. Create server folder and populates the following files with template code
-    * server.js
-    * api.js with basic route with GET and POST requests
-    * .env file
-4. Install dependencies
-5. Wait for dependencies to have been installed
-6. Correct file paths in App.js and index.js
-7. Set up package.json with concurrently
-8. Add basic get and post request to App.js
 
 
 ### Bash Script Features To Add:
