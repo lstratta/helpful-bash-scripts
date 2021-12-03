@@ -20,7 +20,15 @@ function ProgressBar {
 printf "\r[${_fill// /#}${_empty// /-}] ${_progress}%% : ${3}"
 }
 
-_END=211
+function StatusReport {
+
+    ProgressBar ${1} ${2}
+    echo ${3}
+
+    sleep 0.1
+}
+
+_END=233
 
 # printf "CURRENT LINE NUMBER $LINENO\n\n"
 
@@ -194,7 +202,21 @@ echo "app.listen(PORT, console.log('Server is listening on PORT: ', PORT));" >> 
 
 ####################
 
-cd ..
+# cd back into root project folder and then into src
+cd ../src
+
+# Update files with correct import paths
+####################
+
+StatusReport $LINENO ${_END} "Updating paths in App.js"
+
+sed -i "s/.\/App.css/.\/css\/App.js/1" App.js
+
+StatusReport $LINENO ${_END} "Updating paths in index.js"
+
+sed -i "s/.\/index.css/.\/css\/index.js/1" index.js
+
+###################
 
 sleep 1
 
