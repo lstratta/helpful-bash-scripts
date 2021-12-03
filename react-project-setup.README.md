@@ -1,11 +1,10 @@
 Setting Up A React App Project
 ------
 
-
-
 ### What Steps The Script Takes:
 1. Create the React project
 2. Tidy up src folder (assets, components, tests, utils, css)
+    * updates the paths in index.js and App.js
 3. Create server folder and populates the following files with template code
     * server.js
     * api.js with basic route with GET and POST requests
@@ -43,8 +42,8 @@ Download and open Git Bash to run this script.
     + Carousel
     + Card structure
 * Testing
-* Correct file paths in App.js and index.js
 * Set up package.json with concurrently
 * Add basic get and post request to App.js
+* Update paths for ReportWebVitials and logo.svg
 
 ### Known Bugs
