@@ -12,9 +12,6 @@ Setting Up A React App Project
     * .env file
 4. Install dependencies
 5. Wait for dependencies to have been installed
-6. Correct file paths in App.js and index.js
-7. Set up package.json with concurrently
-8. Add basic get and post request to App.js
 
 <img src="./assets/react-project-tree.png" alt="latest-file-tree" width="300"/>
 
@@ -47,3 +44,6 @@ Download and open `git bash` to run this script.
     + Carousel
     + Card structure
 * Testing
+* Correct file paths in App.js and index.js
+* Set up package.json with concurrently
+* Add basic get and post request to App.js
