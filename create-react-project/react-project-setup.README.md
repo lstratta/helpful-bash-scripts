@@ -1,7 +1,7 @@
 Setting Up A React App Project
 ------
 
-Steps:
+### What Steps The Script Takes:
 1. Create the React project
 2. Wait for/check if React to have been installed
 3. Tidy up src folder (assets, components, tests, utisl, css)
@@ -16,13 +16,13 @@ Steps:
 9. Add basic get and post request to App.js
 
 
-Add:
+### Bash Script Features To Add:
 * Bootstrap React core components for styling - MaterialsUI
-* Basic components
+* Basic template components
     + Header
     + Footer
     + NavBar
     + Form
     + Carousel
     + Card structure
-* Testing 
+* Testing
