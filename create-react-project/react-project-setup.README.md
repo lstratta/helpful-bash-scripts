@@ -30,7 +30,7 @@ To run the script:
 All you have to do is run this in your standard terminal. It should work fine for both Bash and ZSH shells.
 
 #### For Windows:
-Download and open `git bash` to run this script.
+Download and open Git Bash to run this script.
 
 
 ## Bash Script Features To Add:
