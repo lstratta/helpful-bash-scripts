@@ -26,12 +26,3 @@ Add:
     + Carousel
     + Card structure
 * Testing 
-
-
-Word1 Word2 Word3
-  |     |     |
-  |     |     |___ 
-  |     |     
-
-
-
