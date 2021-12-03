@@ -47,3 +47,5 @@ Download and open `git bash` to run this script.
 * Correct file paths in App.js and index.js
 * Set up package.json with concurrently
 * Add basic get and post request to App.js
+
+### Known Bugs
