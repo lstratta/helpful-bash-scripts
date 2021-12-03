@@ -5,7 +5,7 @@ Setting Up A React App Project
 
 ### What Steps The Script Takes:
 1. Create the React project
-2. Tidy up src folder (assets, components, tests, utisl, css)
+2. Tidy up src folder (assets, components, tests, utils, css)
 3. Create server folder and populates the following files with template code
     * server.js
     * api.js with basic route with GET and POST requests
