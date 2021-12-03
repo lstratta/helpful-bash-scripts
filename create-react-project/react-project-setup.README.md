@@ -15,16 +15,15 @@ Setting Up A React App Project
 
 <img src="./assets/react-project-tree.png" alt="latest-file-tree" width="300"/>
 
-
-
-
 ## Installation and Use
 To use the script, put the script in the location you'd like to create the React App and run the following commands:
 
 To make the script executable:
+
 `chmod +x create-react-app.sh`
 
-To run the script
+To run the script:
+
 `./create-react-app.sh`
 
 #### For Mac, Linux or Unix:
@@ -34,7 +33,7 @@ All you have to do is run this in your standard terminal. It should work fine fo
 Download and open `git bash` to run this script.
 
 
-### Bash Script Features To Add:
+## Bash Script Features To Add:
 * Bootstrap React core components for styling - MaterialsUI
 * Basic template components
     + Header
